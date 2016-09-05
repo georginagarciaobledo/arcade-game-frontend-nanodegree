@@ -1,13 +1,13 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-This is a game that I created for Udacity's Front-End Web Developer Nanodegree. It is based on "classic arcade game" called "Frogger."
+This is a game that I created for Udacity's Front-End Web Developer Nanodegree. It is based on "classic `arcade game" called "Frogger."
 
 Instructions: 
 1. How to run the game: 
 	Go to https://georginagarciaobledo.github.io/arcade-game-frontend-nanodegree/
 2. How to play the game: 
-	You are the bug. Your goal to make it to the water without encountering a human. Humans are afriad of you, so they will shoo you back to your starting place if you touch them. Use the up, down, left and right arrow keys to avoid the fearful humans and get to the sparkling water. See how quickly you can quench your thirst. 
+	You are the bug. Your goal to make it to the water without encountering a human. Humans are afraid of you, so they will shoo you back to your starting place if you touch them. Use the up, down, left and right arrow keys to avoid the fearful humans and get to the sparkling water. See how quickly you can quench your thirst. 
 
 ===============================
 
