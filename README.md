@@ -1,7 +1,7 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-This is a game that I created for Udacity's Front-End Web Developer Nanodegree. 
+This is a game that I created for Udacity's Front-End Web Developer Nanodegree. It is based on "classic arcade game" called "Frogger."
 
 Instructions: 
 1. How to run the game: 
