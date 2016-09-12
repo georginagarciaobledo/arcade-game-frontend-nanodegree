@@ -13,6 +13,10 @@ var Enemy = function() {
 // Parameter: dt, a time delta between ticks
 Enemy.prototype.update = function(dt) {
     this.x = this.x + 100*dt;
+    if (this.x > 150) {
+        this.x = -101
+    };
+    
     // You should multiply any movement by the dt parameter
     // which will ensure the game runs at the same speed for
     // all computers.
@@ -36,11 +40,21 @@ var Player = function() {
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
 var enemy1 = new Player();
+
 var enemy2 = new Player();
+enemy2.y = 100;
 enemy2.sprite = 'images/char-cat-girl.png';
+
+
 var enemy3 = new Player();
-enemy3.sprite = 'images/char-horn-girl.png'
+enemy3.y = 150;
+enemy3.sprite = 'images/char-horn-girl.png';
+
 var enemy4 = new Player();
+enemy4.y = 200;
+enemy4.sprite = 'images/char-pink-girl.png';
+
+var allEnemies = [enemy1, enemy2, enemy3, enemy4];
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
